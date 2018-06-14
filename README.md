@@ -21,6 +21,6 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
   Training process is shown in Tensorboard on localhost:12345
 
 ### Acknowledgement
-The implentation is based on the code of [Curiosity-driven Exploration by Self-supervised Prediction](http://pathak22.github.io/noreward-rl/).
-Vanilla A3C code is based on the open source implementation of [universe-starter-agent](https://github.com/openai/universe-starter-agent).
-Maze implementation is based on [Pycolab](https://github.com/deepmind/pycolab)
+The implentation is based on the code of [Curiosity-driven Exploration by Self-supervised Prediction](https://github.com/pathak22/noreward-rl).\\
+Vanilla A3C code is based on the open source implementation of [universe-starter-agent](https://github.com/openai/universe-starter-agent).\\
+Maze implementations are based on [Pycolab](https://github.com/deepmind/pycolab)
