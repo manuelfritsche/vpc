@@ -13,7 +13,7 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
 
 ### Usage
   ```Shell
-  cd vpc/
+  cd value-prediction-consistency/
   # for A3C remove --unsup, for A3C + Pred use --unsup pred, for A3C + Pred + VPC use --unsup vpc
   # for Small Maze use --env-id mazeSmall-0, for Large Maze use --env-id mazeLarge-v0
   python train.py --unsup vpc --env-id mazeSmall-v0
