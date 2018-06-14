@@ -1,0 +1,7 @@
+numpy==1.14.2
+scipy==0.19.1
+six==1.10.0
+tensorflow==0.12.0rc1
+gym==0.7.4
+universe==0.21.3
+git+https://github.com/deepmind/pycolab.git
