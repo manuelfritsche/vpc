@@ -6,7 +6,7 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
 ### Installation
   ```Shell
   sudo apt-get install -y tmux htop cmake golang libjpeg-dev
-  git clone -b master https://github.com/m-fritsche/value-prediction-consistency.git
+  git clone -b master https://github.com/ManuelFritsche/vpc.git
   conda create -n curiosity python=2.7
   source activate curiosity
   pip install numpy
