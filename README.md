@@ -16,8 +16,8 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
 ### Usage
   ```Shell
   cd vpc/
-  # for A3C remove --unsup, for A3C + Pred use --unsup pred, for A3C + Pred + VPC use --unsup vpc
-  # for Maze A use --env-id mazeSmall-0, for Maze B use --env-id mazeLarge-v0
+  # for A3C remove --unsup, for Pred use --unsup pred, for VPC use --unsup vpc
+  # for Maze A use --env-id mazeSmall-v0, for Maze B use --env-id mazeLarge-v0
   python train.py --unsup vpc --env-id mazeSmall-v0
   ```
   Training process is shown in Tensorboard on http://localhost:12345
