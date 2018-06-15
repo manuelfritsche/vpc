@@ -10,12 +10,12 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
   conda create -n curiosity python=2.7
   source activate curiosity
   pip install numpy
-  pip install -r value-prediction-consistency/requirements.txt
+  pip install -r vpc/requirements.txt
   ```
 
 ### Usage
   ```Shell
-  cd value-prediction-consistency/
+  cd vpc/
   # for A3C remove --unsup, for A3C + Pred use --unsup pred, for A3C + Pred + VPC use --unsup vpc
   # for Maze A use --env-id mazeSmall-0, for Maze B use --env-id mazeLarge-v0
   python train.py --unsup vpc --env-id mazeSmall-v0
