@@ -20,7 +20,7 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
   # for Maze A use --env-id mazeSmall-0, for Maze B use --env-id mazeLarge-v0
   python train.py --unsup vpc --env-id mazeSmall-v0
   ```
-  Training process is shown in Tensorboard on localhost:12345
+  Training process is shown in Tensorboard on http://localhost:12345
 
 ### Acknowledgement
 The implentation is based on the code of [Curiosity-driven Exploration by Self-supervised Prediction](https://github.com/pathak22/noreward-rl).  
