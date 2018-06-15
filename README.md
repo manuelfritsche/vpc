@@ -13,7 +13,7 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
   pip install -r vpc/requirements.txt
   ```
 
-### Usage
+### Training
   ```Shell
   cd vpc/
   # for A3C remove --unsup, for Pred use --unsup pred, for VPC use --unsup vpc
