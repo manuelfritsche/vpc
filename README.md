@@ -1,7 +1,7 @@
 ## Using State Predictions for Value Regularization in Curiosity Driven Deep Reinforcement Learning ##
 
 ### About
-Tensorflow implementation of the algorithm described in ‘Using State Predictions for Value Regularization in Curiosity Driven Deep Reinforcement Learning’ using the maze environments.
+Tensorflow implementation of the algorithm described in ‘[Using State Predictions for Value Regularization in Curiosity Driven Deep Reinforcement Learning](https://arxiv.org/abs/1810.00361)’ using the maze environments.
 
 ### Installation
   ```Shell
@@ -22,7 +22,7 @@ Tensorflow implementation of the algorithm described in ‘Using State Predictio
   ```
   Training process is shown in Tensorboard on http://localhost:12345
 
-### Acknowledgement
+### Acknowledgements
 The implentation is based on the code of [Curiosity-driven Exploration by Self-supervised Prediction](https://github.com/pathak22/noreward-rl).  
 Vanilla A3C code is based on the open source implementation of [universe-starter-agent](https://github.com/openai/universe-starter-agent).  
 Maze implementations are based on [Pycolab](https://github.com/deepmind/pycolab)
